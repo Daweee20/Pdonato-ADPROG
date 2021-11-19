@@ -1,0 +1,22 @@
+using System;
+					
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		int numberOne, numberTwo, numberThree;
+		Console.WriteLine("Enter three number");
+		
+		Console.WriteLine("enter first number");
+		numberOne = int.Parse(Console.ReadLine());
+		
+		Console.WriteLine("enter second number");
+		numberTwo = int.Parse(Console.ReadLine());
+		
+		Console.WriteLine("enter third number");
+		numberThree = int.Parse(Console.ReadLine());
+		
+		int sum = numberOne + numberTwo + numberThree;
+		Console.WriteLine(" The sum of the three is " + sum );
+	}		
+	}
